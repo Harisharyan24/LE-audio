@@ -1,0 +1,375 @@
+Great, this directory listing is **the whole BlueZ backend inside PipeWire**, so the right answer is **not “all files”** — LE Audio uses only a **very specific subset**.
+
+I’ll give you:
+
+1️⃣ **Exact files required for LE Audio**
+2️⃣ **What each file does (practically)**
+3️⃣ **What you can ignore safely**
+4️⃣ **Minimal mental architecture**
+
+This is the cleanest way to explain it **to yourself and to your manager**.
+
+---
+
+# 1️⃣ Core LE Audio files (MANDATORY)
+
+These are the **non-negotiable files** for LE Audio (BAP + LC3).
+
+---
+
+## 🔹 `bap-codec-lc3.c`
+
+**Role:**
+👉 Implements the **LC3 codec logic** for LE Audio.
+
+**Does:**
+
+* LC3 capability advertisement
+* LC3 config validation
+* Encoder / decoder init
+* PCM ↔ LC3 conversion
+* PLC (packet loss concealment)
+* ABR (adaptive bitrate)
+
+📌 **This is the heart of LE Audio audio processing**
+
+---
+
+## 🔹 `bap-codec-caps.h`
+
+**Role:**
+👉 Defines **LC3/BAP capability constants**
+
+**Contains:**
+
+* LC3 frequency masks
+* Frame duration values
+* Channel definitions
+* Frame length limits
+
+📌 **Pure specification mapping (Bluetooth → code)**
+
+---
+
+## 🔹 `media-codecs.c`
+
+**Role:**
+👉 **Registers all codecs** (A2DP, HFP, BAP)
+
+**Does:**
+
+* Exposes `bap_codec_lc3` to PipeWire
+* Lets PipeWire pick LC3 during negotiation
+
+📌 Without this, LC3 never gets selected.
+
+---
+
+## 🔹 `media-codecs.h`
+
+**Role:**
+👉 Codec interface definitions
+
+**Contains:**
+
+* `struct media_codec`
+* Function pointer definitions
+
+📌 This is the **codec contract**.
+
+---
+
+# 2️⃣ Bluetooth LE Audio transport layer (MANDATORY)
+
+LE Audio is not RTP — it uses **ISO sockets**.
+
+---
+
+## 🔹 `iso-io.c`
+
+**Role:**
+👉 Handles **ISO socket I/O**
+
+**Does:**
+
+* Read/write ISO packets
+* SDU framing
+* Timestamp handling
+
+📌 This replaces RTP used in A2DP.
+
+---
+
+## 🔹 `iso-io.h`
+
+Header for `iso-io.c`
+
+---
+
+## 🔹 `bt-latency.h`
+
+**Role:**
+👉 LE Audio latency calculations
+
+**Does:**
+
+* Maps ISO interval → audio latency
+* Used by QoS logic
+
+---
+
+## 🔹 `rate-control.h`
+
+**Role:**
+👉 Adaptive bitrate helper
+
+Used by:
+
+* LC3 ABR logic
+* ISO congestion handling
+
+---
+
+# 3️⃣ BlueZ integration (MANDATORY)
+
+LE Audio depends heavily on **D-Bus**.
+
+---
+
+## 🔹 `bluez5-dbus.c`
+
+**Role:**
+👉 D-Bus glue between PipeWire and BlueZ
+
+**Does:**
+
+* Connects to `bluetoothd`
+* Handles MediaEndpoint registration
+* Handles transport Acquire / Release
+
+📌 Without this → no PACS, no ASE, no ISO fd.
+
+---
+
+## 🔹 `dbus-monitor.c`
+
+**Role:**
+👉 Watches BlueZ state changes
+
+**Does:**
+
+* Device added/removed
+* ASE state changes
+* Transport changes
+
+---
+
+## 🔹 `dbus-monitor.h`
+
+Header.
+
+---
+
+## 🔹 `bluez5-device.c`
+
+**Role:**
+👉 Represents a Bluetooth device internally
+
+**Does:**
+
+* Tracks LE Audio devices
+* Stores PACS, ASEs, transports
+
+---
+
+## 🔹 `defs.h`
+
+**Role:**
+👉 Common Bluetooth constants & helpers
+
+Used everywhere.
+
+---
+
+# 4️⃣ PipeWire node glue (MANDATORY)
+
+These connect LE Audio to PipeWire’s graph.
+
+---
+
+## 🔹 `media-sink.c`
+
+**Role:**
+👉 Playback path (PC → headset)
+
+**Does:**
+
+* Feeds PCM into LC3 encoder
+* Sends LC3 to ISO
+
+---
+
+## 🔹 `media-source.c`
+
+**Role:**
+👉 Capture path (headset mic → PC)
+
+**Does:**
+
+* Receives ISO
+* Decodes LC3 to PCM
+
+---
+
+# 5️⃣ Plugin entry point (MANDATORY)
+
+---
+
+## 🔹 `plugin.c`
+
+**Role:**
+👉 Entry point for this BlueZ backend
+
+**Does:**
+
+* Initializes BlueZ support
+* Registers everything with PipeWire
+
+📌 Without this, nothing loads.
+
+---
+
+# 6️⃣ Files OPTIONAL / LE Audio–specific but conditional
+
+---
+
+## 🔸 `hci.c`
+
+**Role:**
+👉 Low-level HCI helpers
+
+Used sometimes for:
+
+* Debug
+* Controller capabilities
+
+Not strictly required if BlueZ handles everything.
+
+---
+
+## 🔸 `plc.h`
+
+**Role:**
+👉 Packet loss concealment helpers
+
+Used by LC3 codec.
+
+---
+
+## 🔸 `quirks.c`
+
+**Role:**
+👉 Vendor/device quirks
+
+Sometimes required for specific earbuds.
+
+---
+
+# 7️⃣ Files you can IGNORE for LE Audio
+
+These are **NOT used** for LE Audio:
+
+### ❌ A2DP codecs
+
+```
+a2dp-codec-*.c
+rtp.h
+```
+
+### ❌ HFP / SCO
+
+```
+hfp-*.c
+sco-io.c
+telephony.*
+```
+
+### ❌ MIDI
+
+```
+midi-*
+```
+
+### ❌ Power / modem
+
+```
+upower.*
+modemmanager.*
+```
+
+### ❌ Legacy backends
+
+```
+backend-*
+```
+
+---
+
+# 8️⃣ Minimal LE Audio architecture (mental model)
+
+```
+BlueZ (bluetoothd)
+   ↓  (D-Bus)
+bluez5-dbus.c
+   ↓
+dbus-monitor.c
+   ↓
+media-codecs.c
+   ↓
+bap-codec-lc3.c
+   ↓
+iso-io.c
+   ↓
+media-sink / media-source
+   ↓
+PipeWire graph (PCM)
+```
+
+---
+
+# 9️⃣ Manager-friendly explanation (1 paragraph)
+
+> LE Audio support in PipeWire is implemented using a dedicated LC3 codec module, ISO transport handling, and BlueZ D-Bus integration. The system negotiates LC3 capabilities with the remote device, establishes ISO channels, initializes a per-stream LC3 encoder or decoder, and streams audio frames in real time. The design cleanly separates codec logic, Bluetooth transport, and audio graph integration, allowing LE Audio to function independently of legacy Bluetooth audio paths.
+
+---
+
+# 10️⃣ If you are building a **PipeWire-less LE Audio app**
+
+You must reimplement:
+
+| PipeWire File         | You must replace with |
+| --------------------- | --------------------- |
+| `bap-codec-lc3.c`     | LC3 codec handling    |
+| `bluez5-dbus.c`       | BlueZ D-Bus client    |
+| `dbus-monitor.c`      | State machine         |
+| `iso-io.c`            | ISO socket loop       |
+| `media-sink/source.c` | PCM ↔ LC3 glue        |
+
+---
+
+## 🔥 Final takeaway
+
+👉 **LE Audio is NOT “just LC3”**
+👉 It is **LC3 + ISO + D-Bus + state machines**
+
+You now know **exactly which files matter and why**.
+
+If you want next:
+
+* A **minimal file set** for your own daemon
+* A **call-flow trace** across these files
+* Or a **block diagram you can paste into a slide**
+
+Just say the word 🚀
+
+
