@@ -1,0 +1,1636 @@
+sachin@sachin-9-Notebook-PC:~/Downloads/bluez-5.83$ sudo ./src/bluetoothd -ndE
+[sudo] password for sachin: 
+bluetoothd[14447]: Bluetooth daemon 5.83
+bluetoothd[14447]: src/main.c:parse_config() parsing /etc/bluetooth/main.conf
+bluetoothd[14447]: src/main.c:parse_config_string() General.ControllerMode = dual
+bluetoothd[14447]: src/main.c:parse_config_bool() General.Experimental = true
+bluetoothd[14447]: src/main.c:parse_config_string() General.KernelExperimental = a6695ace-ee7f-4fb9-881a-5fac66c629af,6fbaf188-05e0-496a-9885-d6ddfdb4e03e
+bluetoothd[14447]: src/main.c:btd_parse_kernel_experimental() a6695ace-ee7f-4fb9-881a-5fac66c629af
+bluetoothd[14447]: src/main.c:btd_parse_kernel_experimental() 6fbaf188-05e0-496a-9885-d6ddfdb4e03e
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “BR”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “LE”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_bool() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “GATT”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “CSIS”
+bluetoothd[14447]: src/main.c:parse_config_bool() Key file does not have group “CSIS”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “CSIS”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “CSIS”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “AVDTP”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “AVDTP”
+bluetoothd[14447]: src/main.c:parse_config_bool() Key file does not have group “AVRCP”
+bluetoothd[14447]: src/main.c:parse_config_bool() Key file does not have group “AVRCP”
+bluetoothd[14447]: src/main.c:parse_config_string() Key file does not have group “AdvMon”
+bluetoothd[14447]: src/adapter.c:adapter_init() sending read version command
+bluetoothd[14447]: Starting SDP server
+bluetoothd[14447]: src/sdpd-service.c:register_device_id() Adding device id record for 0002:1d6b:0246:0553
+bluetoothd[14447]: src/plugin.c:plugin_init() Loading builtin plugins
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading asha plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin asha loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading csip plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin csip loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading ccp plugin
+bluetoothd[14447]: src/profile.c:btd_profile_register() D-Bus testing not enabled
+bluetoothd[14447]: src/plugin.c:init_plugin() System does not support ccp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading micp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin micp loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading vcp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin vcp loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading mcp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin mcp loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading bass plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin bass loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading bap plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin bap loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading battery plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin battery loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading deviceinfo plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin deviceinfo loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading scanparam plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin scanparam loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading gap plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin gap loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading hog plugin
+bluetoothd[14447]: profiles/input/suspend-none.c:suspend_init() 
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin hog loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading input plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin input loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading network plugin
+bluetoothd[14447]: profiles/network/manager.c:read_config() /etc/bluetooth/network.conf: Key file does not have key “DisableSecurity” in group “General”
+bluetoothd[14447]: profiles/network/manager.c:read_config() Config options: Security=true
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin network loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading avrcp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin avrcp loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading a2dp plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin a2dp loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading policy plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin policy loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading autopair plugin
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin autopair loaded
+bluetoothd[14447]: src/plugin.c:add_plugin() Loading hostname plugin
+bluetoothd[14447]: plugins/hostname.c:read_dmi_fallback() chassis: laptop
+bluetoothd[14447]: plugins/hostname.c:read_dmi_fallback() major: 0x01 minor: 0x03
+bluetoothd[14447]: plugins/hostname.c:read_transient_hostname() read transient hostname: 'sachin-9-Notebook-PC'
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.StartServiceByName
+bluetoothd[14447]: src/plugin.c:add_plugin() Plugin hostname loaded
+bluetoothd[14447]: src/main.c:main() Entering main loop
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0xffff] command 0x0001
+bluetoothd[14447]: src/rfkill.c:rfkill_event() RFKILL event idx 0 type 2 op 0 soft 0 hard 0
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0xffff] command 0x0001 complete: 0x00
+bluetoothd[14447]: Bluetooth management interface 1.22 initialized
+bluetoothd[14447]: src/adapter.c:read_version_complete() sending read supported commands command
+bluetoothd[14447]: src/adapter.c:read_version_complete() sending read index list command
+bluetoothd[14447]: src/rfkill.c:rfkill_event() RFKILL event idx 1 type 1 op 0 soft 0 hard 0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0xffff] command 0x0002
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0xffff] command 0x0002 complete: 0x00
+bluetoothd[14447]: src/adapter.c:read_commands_complete() Number of commands: 88
+bluetoothd[14447]: src/adapter.c:read_commands_complete() Number of events: 44
+bluetoothd[14447]: src/adapter.c:read_commands_complete() enabling kernel-side connection control
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports the set_blocked_keys op
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports controller cap command
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports exp features
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports set system confic
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports ext adv commands
+bluetoothd[14447]: src/adapter.c:read_commands_complete() kernel supports suspend/resume events
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0xffff] command 0x0003
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0xffff] command 0x0003 complete: 0x00
+bluetoothd[14447]: src/adapter.c:read_index_list_complete() Number of controllers: 1
+bluetoothd[14447]: src/adapter.c:read_index_list_complete() Found index 0
+bluetoothd[14447]: src/adapter.c:index_added() index 0
+bluetoothd[14447]: src/adapter.c:reset_adv_monitors() sending remove Adv Monitor command with handle 0
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() System name: BlueZ 5.83
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() Major class: 0
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() Minor class: 0
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() Modalias: usb:v1D6Bp0246d0553
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() Discoverable timeout: 180 seconds
+bluetoothd[14447]: src/adapter.c:btd_adapter_new() Pairable timeout: 0 seconds
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0053
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0053 complete: 0x00
+bluetoothd[14447]: src/adapter.c:reset_adv_monitors_complete() Removed all Adv Monitors
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0049
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0049 complete: 0x00
+bluetoothd[14447]: src/adapter.c:read_exp_features_complete() index 0 status 0x00
+bluetoothd[14447]: src/adapter.c:read_exp_features_complete() 15c0a148-c273-11ea-b3de-0242ac130004 flags 2 action 0
+bluetoothd[14447]: src/adapter.c:read_exp_features_complete() 330859bc-7506-492d-9370-9a6f0614037f flags 0 action 0
+bluetoothd[14447]: src/adapter.c:read_exp_features_complete() a6695ace-ee7f-4fb9-881a-5fac66c629af flags 1 action 1
+bluetoothd[14447]: src/adapter.c:read_exp_features_complete() 6fbaf188-05e0-496a-9885-d6ddfdb4e03e flags 1 action 1
+bluetoothd[14447]: src/adapter.c:read_info() sending read info command for index 0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0004
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0004 complete: 0x00
+bluetoothd[14447]: src/adapter.c:read_info_complete() index 0 status 0x00
+bluetoothd[14447]: src/adapter.c:clear_uuids() sending clear uuids command for index 0
+bluetoothd[14447]: src/adapter.c:clear_devices() sending clear devices command for index 0
+bluetoothd[14447]: src/adapter.c:set_privacy() sending set privacy command for index 0
+bluetoothd[14447]: src/adapter.c:set_privacy() setting privacy mode 0x00 for index 0
+bluetoothd[14447]: src/battery.c:manager_new() 
+bluetoothd[14447]: Battery Provider Manager created
+bluetoothd[14447]: src/gatt-database.c:btd_gatt_database_new() GATT Manager registered for adapter: /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10001
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001800-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10002
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001801-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10003
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000180a-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/advertising.c:btd_adv_manager_new() LE Advertising Manager created for adapter: /org/bluez/hci0
+bluetoothd[14447]: profiles/audio/a2dp.c:media_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: plugins/policy.c:policy_adapter_probe() 
+bluetoothd[14447]: src/adapter.c:adapter_set_power_state() off-enabling
+bluetoothd[14447]: src/adapter.c:set_mode() sending set mode command for index 0
+bluetoothd[14447]: plugins/hostname.c:hostname_probe() 
+bluetoothd[14447]: plugins/hostname.c:update_class() major: 0x01 minor: 0x03
+bluetoothd[14447]: src/adapter.c:btd_adapter_set_class() class: major 1 minor 3
+bluetoothd[14447]: src/adapter.c:set_dev_class() sending set device class command for index 0
+bluetoothd[14447]: profiles/audio/csip.c:csis_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: profiles/audio/csip.c:csis_data_add() data 0x630eb4031460
+bluetoothd[14447]: profiles/audio/micp.c:micp_server_probe() MICP path /org/bluez/hci0
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10004
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000184d-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_server_probe() VCP path /org/bluez/hci0
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10005
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001845-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10006
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001843-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10007
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001844-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: profiles/audio/bass.c:bass_server_probe() BASS path /org/bluez/hci0
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10008
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000184f-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: profiles/audio/bap.c:bap_adapter_probe() 14:75:5B:3F:5E:02
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10009
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001850-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000a
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000184e-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: profiles/audio/bap.c:bap_data_add() data 0x630eb40383b0
+bluetoothd[14447]: profiles/network/manager.c:panu_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: profiles/network/server.c:server_register() Registered interface org.bluez.NetworkServer1 on path /org/bluez/hci0
+bluetoothd[14447]: profiles/network/manager.c:gn_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: profiles/network/manager.c:nap_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_controller_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000b
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000017-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110e-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110f-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_target_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000c
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000017-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110c-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110e-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: profiles/audio/a2dp.c:a2dp_sink_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: profiles/audio/a2dp.c:a2dp_source_server_probe() path /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:btd_adapter_unblock_address() hci0 00:00:00:00:00:00
+bluetoothd[14447]: src/adapter.c:get_ltk_info() CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/adapter.c:get_peripheral_ltk_info() CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/device.c:device_create_from_storage() address CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/device.c:device_new() address CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/device.c:device_new() Creating device /org/bluez/hci0/dev_CE_BB_C5_05_25_B0
+bluetoothd[14447]: src/device.c:load_info() Missing ServiceRecords from cache file
+bluetoothd[14447]: src/device.c:btd_device_set_temporary() temporary 0
+bluetoothd[14447]: src/adapter.c:get_ltk_info() 90:65:84:C1:6F:C8
+bluetoothd[14447]: src/adapter.c:get_peripheral_ltk_info() 90:65:84:C1:6F:C8
+bluetoothd[14447]: src/device.c:device_create_from_storage() address 90:65:84:C1:6F:C8
+bluetoothd[14447]: src/device.c:device_new() address 90:65:84:C1:6F:C8
+bluetoothd[14447]: src/device.c:device_new() Creating device /org/bluez/hci0/dev_90_65_84_C1_6F_C8
+bluetoothd[14447]: src/device.c:btd_device_set_temporary() temporary 0
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/adapter.c:get_ltk_info() 94:52:44:DA:AD:B1
+bluetoothd[14447]: src/adapter.c:get_peripheral_ltk_info() 94:52:44:DA:AD:B1
+bluetoothd[14447]: src/device.c:device_create_from_storage() address 94:52:44:DA:AD:B1
+bluetoothd[14447]: src/device.c:device_new() address 94:52:44:DA:AD:B1
+bluetoothd[14447]: src/device.c:device_new() Creating device /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: src/device.c:btd_device_set_temporary() temporary 0
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/adapter.c:get_ltk_info() 4C:66:A6:A2:D4:2A
+bluetoothd[14447]: src/adapter.c:get_peripheral_ltk_info() 4C:66:A6:A2:D4:2A
+bluetoothd[14447]: src/device.c:device_create_from_storage() address 4C:66:A6:A2:D4:2A
+bluetoothd[14447]: src/device.c:device_new() address 4C:66:A6:A2:D4:2A
+bluetoothd[14447]: src/device.c:device_new() Creating device /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: src/device.c:btd_device_set_temporary() temporary 0
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/adapter.c:load_link_keys() hci0 keys 3 debug_keys 0
+bluetoothd[14447]: src/adapter.c:load_ltks() hci0 keys 4
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/set.c:set_new() Creating set /org/bluez/hci0/set_4f4d45445f5357545f3034333546524e
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/device.c:device_set_bonded() setting bonded for device to true
+bluetoothd[14447]: src/adapter.c:load_irks() hci0 irks 3
+bluetoothd[14447]: src/adapter.c:load_conn_params() hci0 conn params 1
+bluetoothd[14447]: profiles/audio/csip.c:csip_probe() CE:BB:C5:05:25:B0
+bluetoothd[14447]: profiles/audio/csip.c:csip_data_add() data 0x630eb40495c0
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049510: device CE:BB:C5:05:25:B0 profile csip state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_probe() CE:BB:C5:05:25:B0
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_data_add() data 0x630eb40519c0
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40574c0: device CE:BB:C5:05:25:B0 profile vcp state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/bap.c:bap_probe() CE:BB:C5:05:25:B0
+bluetoothd[14447]: profiles/audio/bap.c:bap_data_add() data 0x630eb4049340
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4054120: device CE:BB:C5:05:25:B0 profile bap state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/device.c:device_set_auto_connect() CE:BB:C5:05:25:B0 auto connect: 1
+bluetoothd[14447]: profiles/gap/gas.c:gap_probe() GAP profile probe (CE:BB:C5:05:25:B0)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049660: device CE:BB:C5:05:25:B0 profile gap-profile state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/micp.c:micp_probe() 90:65:84:C1:6F:C8
+bluetoothd[14447]: profiles/audio/micp.c:micp_data_add() data 0x630eb4049920
+bluetoothd[14447]: src/shared/micp.c:bt_micp_ready_register() bt_micp_ready_register_Entry
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049740: device 90:65:84:C1:6F:C8 profile micp state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_probe() 90:65:84:C1:6F:C8
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_data_add() data 0x630eb4048830
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4048e20: device 90:65:84:C1:6F:C8 profile vcp state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/bass.c:bass_probe() 90:65:84:C1:6F:C8
+bluetoothd[14447]: profiles/audio/bass.c:bass_data_add() data 0x630eb4049b60
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049a40: device 90:65:84:C1:6F:C8 profile bass state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40523e0: device 90:65:84:C1:6F:C8 profile deviceinfo state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/gap/gas.c:gap_probe() GAP profile probe (90:65:84:C1:6F:C8)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40526a0: device 90:65:84:C1:6F:C8 profile gap-profile state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_controller_probe() path /org/bluez/hci0/dev_90_65_84_C1_6F_C8
+bluetoothd[14447]: profiles/audio/control.c:control_init() Registered interface org.bluez.MediaControl1 on path /org/bluez/hci0/dev_90_65_84_C1_6F_C8
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4057cb0: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4057cb0: device 90:65:84:C1:6F:C8 profile avrcp-controller state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_target_probe() path /org/bluez/hci0/dev_90_65_84_C1_6F_C8
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4051880: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4051880: device 90:65:84:C1:6F:C8 profile audio-avrcp-target state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/gap/gas.c:gap_probe() GAP profile probe (94:52:44:DA:AD:B1)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049c70: device 94:52:44:DA:AD:B1 profile gap-profile state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/network/connection.c:connection_register() /org/bluez/hci0/dev_94_52_44_DA_AD_B1 id 4373
+bluetoothd[14447]: profiles/network/connection.c:create_peer() Registered interface org.bluez.Network1 on path /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4054b70: ref=2
+bluetoothd[14447]: profiles/network/connection.c:connection_register() id 4373 registered
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4054b70: device 94:52:44:DA:AD:B1 profile network-panu state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/network/connection.c:connection_register() /org/bluez/hci0/dev_94_52_44_DA_AD_B1 id 4374
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4049d80: ref=2
+bluetoothd[14447]: profiles/network/connection.c:connection_register() id 4374 registered
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049d80: device 94:52:44:DA:AD:B1 profile network-nap state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_controller_probe() path /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: profiles/audio/control.c:control_init() Registered interface org.bluez.MediaControl1 on path /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4049e90: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049e90: device 94:52:44:DA:AD:B1 profile avrcp-controller state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_target_probe() path /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4049f00: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049f00: device 94:52:44:DA:AD:B1 profile audio-avrcp-target state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/a2dp.c:a2dp_source_probe() path /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: profiles/audio/source.c:source_init() /org/bluez/hci0/dev_94_52_44_DA_AD_B1
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4049f70: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049f70: device 94:52:44:DA:AD:B1 profile a2dp-source state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/mcp.c:mcp_probe() 4C:66:A6:A2:D4:2A
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4057e20: device 4C:66:A6:A2:D4:2A profile mcp state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/gap/gas.c:gap_probe() GAP profile probe (4C:66:A6:A2:D4:2A)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4057e60: device 4C:66:A6:A2:D4:2A profile gap-profile state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/network/connection.c:connection_register() /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A id 4373
+bluetoothd[14447]: profiles/network/connection.c:create_peer() Registered interface org.bluez.Network1 on path /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb40554f0: ref=2
+bluetoothd[14447]: profiles/network/connection.c:connection_register() id 4373 registered
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40554f0: device 4C:66:A6:A2:D4:2A profile network-panu state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/network/connection.c:connection_register() /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A id 4374
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb404a170: ref=2
+bluetoothd[14447]: profiles/network/connection.c:connection_register() id 4374 registered
+bluetoothd[14447]: src/service.c:change_state() 0x630eb404a170: device 4C:66:A6:A2:D4:2A profile network-nap state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_controller_probe() path /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: profiles/audio/control.c:control_init() Registered interface org.bluez.MediaControl1 on path /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb40590a0: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40590a0: device 4C:66:A6:A2:D4:2A profile avrcp-controller state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/avrcp.c:avrcp_target_probe() path /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb404a1e0: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb404a1e0: device 4C:66:A6:A2:D4:2A profile audio-avrcp-target state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: profiles/audio/a2dp.c:a2dp_source_probe() path /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: profiles/audio/source.c:source_init() /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb405bfb0: ref=2
+bluetoothd[14447]: src/service.c:change_state() 0x630eb405bfb0: device 4C:66:A6:A2:D4:2A profile a2dp-source state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/gatt-database.c:restore_state() /org/bluez/hci0/dev_4C_66_A6_A2_D4_2A LE
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/adapter.c:set_did() hci0 source 2 vendor 1d6b product 246 version 553
+bluetoothd[14447]: src/adapter.c:adapter_register() Adapter /org/bluez/hci0 registered
+bluetoothd[14447]: src/adapter.c:set_dev_class() sending set device class command for index 0
+bluetoothd[14447]: src/adapter.c:set_name() sending set local name command for index 0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0011
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0011 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0034
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0034 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x002f
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x002f complete: 0x00
+bluetoothd[14447]: src/adapter.c:set_privacy_complete() Successfuly set privacy for index 0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x003d
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x003d complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0048
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0048 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0051
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0051 complete: 0x00
+bluetoothd[14447]: Adv Monitor Manager created with supported features:0x00000001, enabled features:0x00000001, max number of supported monitors:32, max number of supported patterns:16
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0005
+bluetoothd[14447]: [:1.412:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#279]
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [:1.412:method_return] < [#279]
+bluetoothd[14447]: [:1.412:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#280]
+bluetoothd[14447]: [:1.412:method_return] < [#280]
+bluetoothd[14447]: [:1.394:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#64]
+bluetoothd[14447]: [:1.394:method_return] < [#64]
+bluetoothd[14447]: [:1.412:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#281]
+bluetoothd[14447]: [:1.412:method_return] < [#281]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#11]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "Message Notification"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Message Notification" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Message Notification listening on PSM 4097
+bluetoothd[14447]: src/profile.c:ext_start_servers() Message Notification listening on chan 17
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000d
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001133-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001134-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: [:1.338:method_return] < [#11]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#12]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "Message Access"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Message Access" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Message Access listening on PSM 4099
+bluetoothd[14447]: src/profile.c:ext_start_servers() Message Access listening on chan 16
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000e
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001132-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001134-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/profile.c:ext_device_probe() Message Access probed with UUID 00001132-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb406c0f0: device 4C:66:A6:A2:D4:2A profile Message Access state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/profile.c:ext_device_probe() Message Access probed with UUID 00001132-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb406ca70: device 94:52:44:DA:AD:B1 profile Message Access state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: [:1.338:method_return] < [#12]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#13]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "Phone Book Access"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Phone Book Access" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Phone Book Access listening on PSM 4101
+bluetoothd[14447]: src/profile.c:ext_start_servers() Phone Book Access listening on chan 15
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x1000f
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000112f-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001130-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/profile.c:ext_device_probe() Phone Book Access probed with UUID 0000112f-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb406ce90: device 4C:66:A6:A2:D4:2A profile Phone Book Access state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/profile.c:ext_device_probe() Phone Book Access probed with UUID 0000112f-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb406d9a0: device 94:52:44:DA:AD:B1 profile Phone Book Access state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: [:1.338:method_return] < [#13]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#14]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "Synchronization"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Synchronization" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Synchronization listening on chan 14
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10010
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001104-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: [:1.338:method_return] < [#14]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#15]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "File Transfer"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "File Transfer" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() File Transfer listening on PSM 4103
+bluetoothd[14447]: src/profile.c:ext_start_servers() File Transfer listening on chan 10
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10011
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001106-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: [:1.338:method_return] < [#15]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#16]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created "Object Push"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Object Push" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Object Push listening on PSM 4105
+bluetoothd[14447]: src/profile.c:ext_start_servers() Object Push listening on chan 9
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10012
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001105-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/profile.c:ext_device_probe() Object Push probed with UUID 00001105-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4070240: device 4C:66:A6:A2:D4:2A profile Object Push state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/profile.c:ext_device_probe() Object Push probed with UUID 00001105-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4070df0: device 94:52:44:DA:AD:B1 profile Object Push state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: [:1.338:method_return] < [#16]
+bluetoothd[14447]: [:1.338:method_call] > org.bluez.ProfileManager1.RegisterProfile [#17]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.338
+bluetoothd[14447]: src/profile.c:create_ext() Created ":1.338/org/bluez/obex/00005005_0000_1000_8000_0002ee000001/00005005-0000-1000-8000-0002ee000001"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() ":1.338/org/bluez/obex/00005005_0000_1000_8000_0002ee000001/00005005-0000-1000-8000-0002ee000001" probed
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10013
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000008-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00005005-0000-1000-8000-0002ee0
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: [:1.338:method_return] < [#17]
+bluetoothd[14447]: [:1.6:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#6973]
+bluetoothd[14447]: [:1.6:method_return] < [#6973]
+bluetoothd[14447]: [:1.395:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#19]
+bluetoothd[14447]: [:1.395:method_return] < [#19]
+bluetoothd[14447]: [:1.310:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#288]
+bluetoothd[14447]: [:1.310:method_return] < [#288]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#1195]
+bluetoothd[14447]: [:1.334:method_return] < [#1195]
+bluetoothd[14447]: [:1.395:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#21]
+bluetoothd[14447]: [:1.395:method_return] < [#21]
+bluetoothd[14447]: [:1.27:method_call] > org.freedesktop.DBus.ObjectManager.GetManagedObjects [#483]
+bluetoothd[14447]: [:1.27:method_return] < [#483]
+bluetoothd[14447]: [:1.412:method_call] > org.bluez.AgentManager1.RegisterAgent [#285]
+bluetoothd[14447]: src/agent.c:add_default_agent() Default agent set to :1.412 /org/bluez/agent
+bluetoothd[14447]: src/agent.c:agent_ref() 0x630eb406f9e0: ref=1
+bluetoothd[14447]: src/agent.c:register_agent() agent :1.412
+bluetoothd[14447]: [:1.412:method_return] < [#285]
+bluetoothd[14447]: [:1.334:method_call] > org.bluez.AgentManager1.RegisterAgent [#1196]
+bluetoothd[14447]: src/agent.c:agent_ref() 0x630eb402af20: ref=1
+bluetoothd[14447]: src/agent.c:register_agent() agent :1.334
+bluetoothd[14447]: [:1.334:method_return] < [#1196]
+bluetoothd[14447]: [:1.334:method_call] > org.bluez.AgentManager1.RequestDefaultAgent [#1197]
+bluetoothd[14447]: src/agent.c:add_default_agent() Default agent set to :1.334 /org/bluez/agent/blueman
+bluetoothd[14447]: [:1.334:method_return] < [#1197]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1198]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1199]
+bluetoothd[14447]: [:1.334:method_return] < [#1199]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1200]
+bluetoothd[14447]: [:1.334:method_return] < [#1200]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1201]
+bluetoothd[14447]: [:1.334:method_return] < [#1201]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1202]
+bluetoothd[14447]: [:1.334:method_return] < [#1202]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1203]
+bluetoothd[14447]: [:1.334:method_return] < [#1203]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.GetAll [#1204]
+bluetoothd[14447]: [:1.334:method_return] < [#1204]
+bluetoothd[14447]: [org.freedesktop.hostname1:method_call] < org.freedesktop.DBus.Properties.GetAll
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1323]
+bluetoothd[14447]: [:1.334:method_return] < [#1323]
+bluetoothd[14447]: [:1.412:method_call] > org.bluez.AdvertisementMonitorManager1.RegisterMonitor [#293]
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.ProfileManager1.RegisterProfile [#65]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.394
+bluetoothd[14447]: src/profile.c:create_ext() Created "Hands-Free Voice gateway"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Hands-Free Voice gateway" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Hands-Free Voice gateway listening on chan 13
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10014
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000111e-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000111f-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001203-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/profile.c:ext_device_probe() Hands-Free Voice gateway probed with UUID 0000111e-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb403b050: device 90:65:84:C1:6F:C8 profile Hands-Free Voice gateway state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: [:1.394:method_return] < [#65]
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.ProfileManager1.RegisterProfile [#66]
+bluetoothd[14447]: src/profile.c:register_profile() sender :1.394
+bluetoothd[14447]: src/profile.c:create_ext() Created "Hands-Free unit"
+bluetoothd[14447]: src/profile.c:ext_adapter_probe() "Hands-Free unit" probed
+bluetoothd[14447]: src/profile.c:ext_start_servers() Hands-Free unit listening on chan 7
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10015
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000003-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000111e-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001203-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/profile.c:ext_device_probe() Hands-Free unit probed with UUID 0000111f-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb404cd70: device 4C:66:A6:A2:D4:2A profile Hands-Free unit state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: src/profile.c:ext_device_probe() Hands-Free unit probed with UUID 0000111f-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4067730: device 94:52:44:DA:AD:B1 profile Hands-Free unit state changed: unavailable -> disconnected (0)
+bluetoothd[14447]: [:1.394:method_return] < [#66]
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.Media1.RegisterApplication [#67]
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: profiles/audio/media.c:register_app() Registering application: :1.394:/MediaEndpoint
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.Media1.RegisterApplication [#68]
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: profiles/audio/media.c:register_app() Registering application: :1.394:/MediaEndpointLE
+bluetoothd[14447]: [:1.395:method_call] > org.bluez.GattManager1.RegisterApplication [#25]
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: src/gatt-database.c:manager_register_app() Registering application: :1.395:/midi
+bluetoothd[14447]: [:1.395:method_call] > org.bluez.GattManager1.RegisterApplication [#26]
+bluetoothd[14447]: [org.freedesktop.DBus:method_call] < org.freedesktop.DBus.AddMatch
+bluetoothd[14447]: src/gatt-database.c:manager_register_app() Registering application: :1.395:/midiserver0
+bluetoothd[14447]: [:1.412:method_call] < org.freedesktop.DBus.ObjectManager.GetManagedObjects
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1324]
+bluetoothd[14447]: [:1.334:method_return] < [#1324]
+bluetoothd[14447]: plugins/hostname.c:property_changed() static hostname: 'sachin-9-Notebook-PC'
+bluetoothd[14447]: plugins/hostname.c:property_changed() pretty hostname: ''
+bluetoothd[14447]: plugins/hostname.c:update_name() name: sachin-9-Notebook-PC
+bluetoothd[14447]: src/adapter.c:adapter_set_name() name: sachin-9-Notebook-PC
+bluetoothd[14447]: src/adapter.c:adapter_set_name() alias: sachin-9-Notebook-PC
+bluetoothd[14447]: src/adapter.c:set_name() sending set local name command for index 0
+bluetoothd[14447]: plugins/hostname.c:property_changed() chassis: 'laptop'
+bluetoothd[14447]: plugins/hostname.c:update_class() major: 0x01 minor: 0x03
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.394:method_call] < org.freedesktop.DBus.ObjectManager.GetManagedObjects
+bluetoothd[14447]: [:1.394:method_call] < org.freedesktop.DBus.ObjectManager.GetManagedObjects
+bluetoothd[14447]: [:1.395:method_call] < org.freedesktop.DBus.ObjectManager.GetManagedObjects
+bluetoothd[14447]: [:1.395:method_call] < org.freedesktop.DBus.ObjectManager.GetManagedObjects
+bluetoothd[14447]: Path / reserved for Adv Monitor app :1.412
+bluetoothd[14447]: [:1.412:method_return] < [#293]
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/ldac, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb404ca80 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:1
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10016
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000019-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110a-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110d-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/ldac
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/aptx_hd, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb406b830 registered: type:1 codec:255 seid_pool:0x630eb40494c8 seid:2
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10017
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000019-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110b-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 0000110d-0000-1000-8000-00805f9
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/aptx_hd
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx_hd, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40699e0 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:3
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx_hd
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/aptx, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb405ed70 registered: type:1 codec:255 seid_pool:0x630eb40494c8 seid:4
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/aptx
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40655a0 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:5
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/aac, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4066090 registered: type:1 codec:2 seid_pool:0x630eb40494c8 seid:6
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/aac
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aac, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4066b80 registered: type:0 codec:2 seid_pool:0x630eb40494c8 seid:7
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aac
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/opus_g, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb404fc20 registered: type:1 codec:255 seid_pool:0x630eb40494c8 seid:8
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/opus_g
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/opus_g, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4050710 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:9
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/opus_g
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/sbc, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4051220 registered: type:1 codec:0 seid_pool:0x630eb40494c8 seid:10
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/sbc
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/sbc, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40729d0 registered: type:0 codec:0 seid_pool:0x630eb40494c8 seid:11
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/sbc
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx_ll_1, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40734c0 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:12
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx_ll_0, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4073f60 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:13
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx_ll_duplex_1, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4074850 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:14
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/aptx_ll_duplex_0, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40758d0 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:15
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/faststream, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4076370 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:16
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/faststream
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/faststream_duplex, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4076450 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:17
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/faststream_duplex
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/opus_05, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40779a0 registered: type:1 codec:255 seid_pool:0x630eb40494c8 seid:18
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/opus_05
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/opus_05, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb40784a0 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:19
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/opus_05
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSink/opus_05_duplex, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4078fa0 registered: type:1 codec:255 seid_pool:0x630eb40494c8 seid:20
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpoint/A2DPSource/opus_05_duplex, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/avdtp.c:avdtp_register_sep() SEP 0x630eb4079080 registered: type:0 codec:255 seid_pool:0x630eb40494c8 seid:21
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+bluetoothd[14447]: profiles/audio/media.c:client_ready_cb() Media application registered: :1.394:/MediaEndpoint
+bluetoothd[14447]: [:1.394:method_return] < [#67]
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpointLE/BAPSink/lc3, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x00b5
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 8 Khz (0x0001)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 16 Khz (0x0004)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 24 Khz (0x0010)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 32 Khz (0x0020)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 7.5 ms (0x01)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #2: len 0x02 type 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 2 channel (0x02)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Length: 20 (0x0014) - 400 (0x0190)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #4: len 0x02 type 0x05
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Max SDU: 2 (0x02)
+bluetoothd[14447]: profiles/audio/media.c:endpoint_init_pac() PAC :1.394:/MediaEndpointLE/BAPSink/lc3 registered
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpointLE/BAPSink/lc3
+bluetoothd[14447]: profiles/audio/media.c:proxy_added_cb() Proxy added: /MediaEndpointLE/BAPSource/lc3, iface: org.bluez.MediaEndpoint1
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x00b5
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 8 Khz (0x0001)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 16 Khz (0x0004)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 24 Khz (0x0010)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 32 Khz (0x0020)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 7.5 ms (0x01)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #2: len 0x02 type 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x03
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Audio Channel Count: 2 channel (0x02)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Frame Length: 20 (0x0014) - 400 (0x0190)
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() #4: len 0x02 type 0x05
+bluetoothd[14447]: profiles/audio/media.c:bap_debug() Max SDU: 2 (0x02)
+bluetoothd[14447]: profiles/audio/media.c:endpoint_init_pac() PAC :1.394:/MediaEndpointLE/BAPSource/lc3 registered
+bluetoothd[14447]: Endpoint registered: sender=:1.394 path=/MediaEndpointLE/BAPSource/lc3
+bluetoothd[14447]: profiles/audio/media.c:client_ready_cb() Media application registered: :1.394:/MediaEndpointLE
+bluetoothd[14447]: [:1.394:method_return] < [#68]
+bluetoothd[14447]: src/gatt-database.c:proxy_added_cb() Object received: /midi/profile, iface: org.bluez.GattProfile1
+bluetoothd[14447]: src/gatt-database.c:profile_add() Added ":1.395/midi/profile/03b80e5a-ede8-4b33-a751-6ce34ec4c700"
+bluetoothd[14447]: src/gatt-database.c:client_ready_cb() GATT application registered: :1.395:/midi
+bluetoothd[14447]: [:1.395:method_return] < [#25]
+bluetoothd[14447]: src/gatt-database.c:proxy_added_cb() Object received: /midiserver0/service/chr/dsc, iface: org.bluez.GattDescriptor1
+bluetoothd[14447]: src/gatt-database.c:proxy_added_cb() Object received: /midiserver0/service, iface: org.bluez.GattService1
+bluetoothd[14447]: src/gatt-database.c:proxy_added_cb() Object received: /midiserver0/service/chr, iface: org.bluez.GattCharacteristic1
+bluetoothd[14447]: src/gatt-database.c:database_add_service() handle 0x0089 UUID 03b80e5a-ede8-4b33-a751-6ce34ec4c700
+bluetoothd[14447]: src/gatt-database.c:database_add_ccc() Created CCC entry for characteristic
+bluetoothd[14447]: src/gatt-database.c:database_add_chrc() handle 0x008b UUID 7772e5db-3868-4112-a1a9-f2669d106bf3
+bluetoothd[14447]: src/gatt-database.c:database_add_desc() handle 0x008d UUID 00002901-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/gatt-database.c:gatt_db_service_added() GATT Service added to local database
+bluetoothd[14447]: src/adapter.c:adapter_service_add() /org/bluez/hci0
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Adding record with handle 0x10018
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000007-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00000100-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 00001002-0000-1000-8000-00805f9
+bluetoothd[14447]: src/sdpd-service.c:add_record_to_server() Record pattern UUID 03b80e5a-ede8-4b33-a751-6ce34ec
+bluetoothd[14447]: src/adapter.c:adapter_service_insert() /org/bluez/hci0
+bluetoothd[14447]: src/adapter.c:add_uuid() sending add uuid command for index 0
+bluetoothd[14447]: src/gatt-database.c:db_hash_read_cb() Database Hash read
+bluetoothd[14447]: src/gatt-database.c:client_ready_cb() GATT application registered: :1.395:/midiserver0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.395:method_return] < [#26]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Set [#1325]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1326]
+bluetoothd[14447]: [:1.334:method_return] < [#1326]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1328]
+bluetoothd[14447]: [:1.334:method_return] < [#1328]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1329]
+bluetoothd[14447]: [:1.334:method_return] < [#1329]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1330]
+bluetoothd[14447]: [:1.334:method_return] < [#1330]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1331]
+bluetoothd[14447]: [:1.334:method_return] < [#1331]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1332]
+bluetoothd[14447]: [:1.334:method_return] < [#1332]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1333]
+bluetoothd[14447]: [:1.334:method_return] < [#1333]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x00010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1334]
+bluetoothd[14447]: [:1.334:method_return] < [#1334]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1335]
+bluetoothd[14447]: [:1.334:method_return] < [#1335]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0005 complete: 0x00
+bluetoothd[14447]: src/adapter.c:adapter_set_power_state() on
+bluetoothd[14447]: src/adapter.c:new_settings_callback() Settings: 0x000e0ad1
+bluetoothd[14447]: src/adapter.c:settings_changed() Changed settings: 0x00000001
+bluetoothd[14447]: src/adapter.c:settings_changed() Pending settings: 0x00000000
+bluetoothd[14447]: src/adapter.c:adapter_start() adapter /org/bluez/hci0 has been enabled
+bluetoothd[14447]: src/adapter.c:trigger_passive_scanning() 
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x000e
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x000e complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1336]
+bluetoothd[14447]: [:1.334:method_return] < [#1336]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1337]
+bluetoothd[14447]: [:1.334:method_return] < [#1337]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0027
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0027 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x004c
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x4c status: 0x0d
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0033
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x002a
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0033 complete: 0x00
+bluetoothd[14447]: src/adapter.c:add_accept_list_complete() 90:65:84:C1:6F:C8 added to kernel accept list
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0033
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x002a
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0033 complete: 0x00
+bluetoothd[14447]: src/adapter.c:add_accept_list_complete() 94:52:44:DA:AD:B1 added to kernel accept list
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0033
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x002a
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0033 complete: 0x00
+bluetoothd[14447]: src/adapter.c:add_accept_list_complete() 4C:66:A6:A2:D4:2A added to kernel accept list
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0012
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0012 complete: 0x00
+bluetoothd[14447]: src/adapter.c:load_link_keys_complete() link keys loaded for hci0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0013
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0013 complete: 0x00
+bluetoothd[14447]: src/adapter.c:load_ltks_complete() LTKs loaded for hci0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0030
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0030 complete: 0x00
+bluetoothd[14447]: src/adapter.c:load_irks_complete() IRKs loaded for hci0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0035
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0035 complete: 0x00
+bluetoothd[14447]: src/adapter.c:load_conn_params_complete() Connection Parameters loaded for hci0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0033
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x002a
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0033 complete: 0x00
+bluetoothd[14447]: src/adapter.c:add_device_complete() CE:BB:C5:05:25:B0 (2) added to kernel connect list
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0028
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0028 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x000e
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x000e complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x000f
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x000f complete: 0x00
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Name: BlueZ 5.83
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Short name: 
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Current alias: BlueZ 5.83
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0046
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0046 complete: 0x00
+bluetoothd[14447]: src/adapter.c:set_blocked_keys_complete() Successfully set blocked keys for index 0
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x10010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1338]
+bluetoothd[14447]: [:1.334:method_return] < [#1338]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1339]
+bluetoothd[14447]: [:1.334:method_return] < [#1339]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0018
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0018 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0018
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0018 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x50010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x70010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x000f
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1341]
+bluetoothd[14447]: [:1.334:method_return] < [#1341]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x000f complete: 0x00
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Name: sachin-9-Notebook-PC
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Short name: 
+bluetoothd[14447]: src/adapter.c:local_name_changed_callback() Current alias: sachin-9-Notebook-PC
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x78010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x0007
+bluetoothd[14447]: src/adapter.c:dev_class_changed_callback() Class: 0x7c010c
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: src/shared/mgmt.c:send_request() [0x0000] command 0x0010
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] command 0x0010 complete: 0x00
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1342]
+bluetoothd[14447]: [:1.334:method_return] < [#1342]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1343]
+bluetoothd[14447]: [:1.334:method_return] < [#1343]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1344]
+bluetoothd[14447]: [:1.334:method_return] < [#1344]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1345]
+bluetoothd[14447]: [:1.334:method_return] < [#1345]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1346]
+bluetoothd[14447]: [:1.334:method_return] < [#1346]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1347]
+bluetoothd[14447]: [:1.334:method_return] < [#1347]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1348]
+bluetoothd[14447]: [:1.334:method_return] < [#1348]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1349]
+bluetoothd[14447]: [:1.334:method_return] < [#1349]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1350]
+bluetoothd[14447]: [:1.334:method_return] < [#1350]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1351]
+bluetoothd[14447]: [:1.334:method_return] < [#1351]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1352]
+bluetoothd[14447]: [:1.334:method_return] < [#1352]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1353]
+bluetoothd[14447]: [:1.334:method_return] < [#1353]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1354]
+bluetoothd[14447]: [:1.334:method_return] < [#1354]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1355]
+bluetoothd[14447]: [:1.334:method_return] < [#1355]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1356]
+bluetoothd[14447]: [:1.334:method_return] < [#1356]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1357]
+bluetoothd[14447]: [:1.334:method_return] < [#1357]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1358]
+bluetoothd[14447]: [:1.334:method_return] < [#1358]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1359]
+bluetoothd[14447]: [:1.334:method_return] < [#1359]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1360]
+bluetoothd[14447]: [:1.334:method_return] < [#1360]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1361]
+bluetoothd[14447]: [:1.334:method_return] < [#1361]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1362]
+bluetoothd[14447]: [:1.334:method_return] < [#1362]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1363]
+bluetoothd[14447]: [:1.334:method_return] < [#1363]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1364]
+bluetoothd[14447]: [:1.334:method_return] < [#1364]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1365]
+bluetoothd[14447]: [:1.334:method_return] < [#1365]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1366]
+bluetoothd[14447]: [:1.334:method_return] < [#1366]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1367]
+bluetoothd[14447]: [:1.334:method_return] < [#1367]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1368]
+bluetoothd[14447]: [:1.334:method_return] < [#1368]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1369]
+bluetoothd[14447]: [:1.334:method_return] < [#1369]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1370]
+bluetoothd[14447]: [:1.334:method_return] < [#1370]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1371]
+bluetoothd[14447]: [:1.334:method_return] < [#1371]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1372]
+bluetoothd[14447]: [:1.334:method_return] < [#1372]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1373]
+bluetoothd[14447]: [:1.334:method_return] < [#1373]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1374]
+bluetoothd[14447]: [:1.334:method_return] < [#1374]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1375]
+bluetoothd[14447]: [:1.334:method_return] < [#1375]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1376]
+bluetoothd[14447]: [:1.334:method_return] < [#1376]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1377]
+bluetoothd[14447]: [:1.334:method_return] < [#1377]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1378]
+bluetoothd[14447]: [:1.334:method_return] < [#1378]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1379]
+bluetoothd[14447]: [:1.334:method_return] < [#1379]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1380]
+bluetoothd[14447]: [:1.334:method_return] < [#1380]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1381]
+bluetoothd[14447]: [:1.334:method_return] < [#1381]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1382]
+bluetoothd[14447]: [:1.334:method_return] < [#1382]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1383]
+bluetoothd[14447]: [:1.334:method_return] < [#1383]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1384]
+bluetoothd[14447]: [:1.334:method_return] < [#1384]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1385]
+bluetoothd[14447]: [:1.334:method_return] < [#1385]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1386]
+bluetoothd[14447]: [:1.334:method_return] < [#1386]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1387]
+bluetoothd[14447]: [:1.334:method_return] < [#1387]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1388]
+bluetoothd[14447]: [:1.334:method_return] < [#1388]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1389]
+bluetoothd[14447]: [:1.334:method_return] < [#1389]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1390]
+bluetoothd[14447]: [:1.334:method_return] < [#1390]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1391]
+bluetoothd[14447]: [:1.334:method_return] < [#1391]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1392]
+bluetoothd[14447]: [:1.334:method_return] < [#1392]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1393]
+bluetoothd[14447]: [:1.334:method_return] < [#1393]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1394]
+bluetoothd[14447]: [:1.334:method_return] < [#1394]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1395]
+bluetoothd[14447]: [:1.334:method_return] < [#1395]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1396]
+bluetoothd[14447]: [:1.334:method_return] < [#1396]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1397]
+bluetoothd[14447]: [:1.334:method_return] < [#1397]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1398]
+bluetoothd[14447]: [:1.334:method_return] < [#1398]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1399]
+bluetoothd[14447]: [:1.334:method_return] < [#1399]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1400]
+bluetoothd[14447]: [:1.334:method_return] < [#1400]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Set [#1402]
+bluetoothd[14447]: src/shared/mgmt.c:can_read_data() [0x0000] event 0x000b
+bluetoothd[14447]: src/adapter.c:connected_callback() hci0 device CE:BB:C5:05:25:B0 connected eir_len 0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1403]
+bluetoothd[14447]: [:1.334:method_return] < [#1403]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1404]
+bluetoothd[14447]: [:1.334:method_return] < [#1404]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1405]
+bluetoothd[14447]: [:1.334:method_return] < [#1405]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1406]
+bluetoothd[14447]: [:1.334:method_return] < [#1406]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1407]
+bluetoothd[14447]: [:1.334:method_return] < [#1407]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1408]
+bluetoothd[14447]: [:1.334:method_return] < [#1408]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1409]
+bluetoothd[14447]: [:1.334:method_return] < [#1409]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1410]
+bluetoothd[14447]: [:1.334:error] < org.freedesktop.DBus.Error.InvalidArgs [#1410]
+bluetoothd[14447]: src/gatt-database.c:connect_cb() New incoming LE ATT connection
+bluetoothd[14447]: src/device.c:device_attach_att() Elevating security level since LTK is available
+bluetoothd[14447]: attrib/gattrib.c:g_attrib_ref() 0x630eb4059e90: g_attrib_ref=1 
+bluetoothd[14447]: src/device.c:load_gatt_db() Restoring CE:BB:C5:05:25:B0 gatt database from file
+bluetoothd[14447]: src/gatt-client.c:btd_gatt_client_connected() Device connected.
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x02
+bluetoothd[14447]: src/shared/gatt-server.c:exchange_mtu_cb() MTU exchange complete, with MTU: 65
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1411]
+bluetoothd[14447]: [:1.334:error] < org.freedesktop.DBus.Error.InvalidArgs [#1411]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1412]
+bluetoothd[14447]: [:1.334:method_return] < [#1412]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1413]
+bluetoothd[14447]: [:1.334:method_return] < [#1413]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1414]
+bluetoothd[14447]: [:1.334:method_return] < [#1414]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1415]
+bluetoothd[14447]: [:1.334:method_return] < [#1415]
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1416]
+bluetoothd[14447]: [:1.334:method_return] < [#1416]
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:exchange_mtu_cb() MTU exchange complete, with MTU: 65
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x06
+bluetoothd[14447]: src/shared/gatt-server.c:find_by_type_val_cb() Find By Type Value - start: 0x0001 end: 0xffff uuid: 0x2800
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_primary_cb() Primary services found: 7
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x0001, end: 0x0004, uuid: 00001801-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x0005, end: 0x0009, uuid: 00001800-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x000a, end: 0x0013, uuid: 0000184e-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x0014, end: 0x0023, uuid: 00001850-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x0024, end: 0x002d, uuid: 00001846-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x002e, end: 0x002f, uuid: 00001853-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discovery_parse_services() start: 0x0030, end: 0x0037, uuid: 00001844-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_incl_cb() Included services found: 1
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_incl_cb() handle: 0x002f, start: 0x0024, end: 0x002d,uuid: 00001846-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() Characteristics found: 19
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0002, end: 0x0005, value: 0x0003, props: 0x20, uuid: 00002a05-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0006, end: 0x0007, value: 0x0007, props: 0x0a, uuid: 00002a00-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0008, end: 0x000a, value: 0x0009, props: 0x02, uuid: 00002a01-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x000b, end: 0x000d, value: 0x000c, props: 0x1c, uuid: 00002bc6-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x000e, end: 0x0010, value: 0x000f, props: 0x12, uuid: 00002bc4-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0011, end: 0x0014, value: 0x0012, props: 0x12, uuid: 00002bc5-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0015, end: 0x0017, value: 0x0016, props: 0x02, uuid: 00002bc9-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0018, end: 0x0019, value: 0x0019, props: 0x02, uuid: 00002bca-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x001a, end: 0x001c, value: 0x001b, props: 0x02, uuid: 00002bcb-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x001d, end: 0x001e, value: 0x001e, props: 0x02, uuid: 00002bcc-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x001f, end: 0x0021, value: 0x0020, props: 0x12, uuid: 00002bcd-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0022, end: 0x0024, value: 0x0023, props: 0x02, uuid: 00002bce-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0025, end: 0x0026, value: 0x0026, props: 0x02, uuid: 00002b84-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0027, end: 0x0028, value: 0x0028, props: 0x02, uuid: 00002b85-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0029, end: 0x002b, value: 0x002a, props: 0x1a, uuid: 00002b86-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x002c, end: 0x0030, value: 0x002d, props: 0x02, uuid: 00002b87-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0031, end: 0x0033, value: 0x0032, props: 0x12, uuid: 00002b7d-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0034, end: 0x0035, value: 0x0035, props: 0x08, uuid: 00002b7e-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_chrcs_cb() start: 0x0036, end: 0x0037, value: 0x0037, props: 0x02, uuid: 00002b7f-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_descs_cb() Descriptors found: 1
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_descs_cb() handle: 0x0017, uuid: 00002902-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_descs_cb() Descriptors found: 1
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:discover_descs_cb() handle: 0x001c, uuid: 00002902-0000-1000-8000-00805f9b34fb
+bluetoothd[14447]: src/device.c:gatt_client_ready_cb() status: success, error: 0
+bluetoothd[14447]: profiles/gap/gas.c:gap_accept() GAP profile accept (CE:BB:C5:05:25:B0)
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049660: device CE:BB:C5:05:25:B0 profile gap-profile state changed: disconnected -> connected (0)
+bluetoothd[14447]: profiles/audio/bap.c:bap_accept() CE:BB:C5:05:25:B0
+bluetoothd[14447]: profiles/audio/bass.c:bap_attached() 0x630eb4057d20
+bluetoothd[14447]: profiles/audio/bap.c:bap_attached() 0x630eb4057d20
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() Sink PAC found: handle 0x0016
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() Sink PAC Location found: handle 0x0019
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() Source PAC found: handle 0x001b
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() Source PAC Location found: handle 0x001e
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() PAC Context found: handle 0x0020
+bluetoothd[14447]: src/shared/bap.c:foreach_pacs_char() PAC Supported Context found: handle 0x0023
+bluetoothd[14447]: src/shared/bap.c:foreach_ascs_char() ASE Control Point found: handle 0x000c
+bluetoothd[14447]: src/shared/bap.c:bap_cp_attach() ASE CP handle 0x000c
+bluetoothd[14447]: src/shared/bap.c:foreach_ascs_char() ASE Sink found: handle 0x000f
+bluetoothd[14447]: src/shared/bap.c:bap_endpoint_attach() ASE handle 0x000f
+bluetoothd[14447]: src/shared/bap.c:foreach_ascs_char() ASE Source found: handle 0x0012
+bluetoothd[14447]: src/shared/bap.c:bap_endpoint_attach() ASE handle 0x0012
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4054120: device CE:BB:C5:05:25:B0 profile bap state changed: disconnected -> connected (0)
+bluetoothd[14447]: src/service.c:btd_service_ref() 0x630eb4054120: ref=2
+bluetoothd[14447]: plugins/policy.c:service_cb() Added bap reconnect 0
+bluetoothd[14447]: profiles/audio/csip.c:csip_accept() CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/shared/csip.c:foreach_csis_char() SIRK found: handle 0x0026
+bluetoothd[14447]: src/shared/csip.c:foreach_csis_char() Size found: handle 0x0028
+bluetoothd[14447]: src/shared/csip.c:foreach_csis_char() Rank found: handle 0x002d
+bluetoothd[14447]: src/service.c:change_state() 0x630eb4049510: device CE:BB:C5:05:25:B0 profile csip state changed: disconnected -> connected (0)
+bluetoothd[14447]: profiles/audio/vcp.c:vcp_accept() CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/shared/vcp.c:foreach_vcs_char() VCS Vol state found: handle 0x0032
+bluetoothd[14447]: src/shared/vcp.c:foreach_vcs_char() VCS Volume CP found: handle 0x0035
+bluetoothd[14447]: src/shared/vcp.c:foreach_vcs_char() VCS Vol Flag found: handle 0x0037
+bluetoothd[14447]: src/service.c:change_state() 0x630eb40574c0: device CE:BB:C5:05:25:B0 profile vcp state changed: disconnected -> connected (0)
+bluetoothd[14447]: src/gatt-client.c:btd_gatt_client_ready() GATT client ready
+bluetoothd[14447]: src/gatt-client.c:create_services() Exporting objects for GATT services: CE:BB:C5:05:25:B0
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0001
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0001/char0002
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0001/char0002/desc0004
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0005
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0005/char0006
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0005/char0008
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char000b
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char000b/desc000d
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char000e
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char000e/desc0010
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char0011
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service000a/char0011/desc0013
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char0015
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char0015/desc0017
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char0018
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char001a
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char001a/desc001c
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char001d
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char001f
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char001f/desc0021
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0014/char0022
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024/char0025
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024/char0027
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024/char0029
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024/char0029/desc002b
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0024/char002c
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service002e
+bluetoothd[14447]: src/gatt-client.c:service_create() Exported GATT service: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0030
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0030/char0031
+bluetoothd[14447]: src/gatt-client.c:descriptor_create() Exported GATT characteristic descriptor: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0030/char0031/desc0033
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0030/char0034
+bluetoothd[14447]: src/gatt-client.c:characteristic_create() Exported GATT characteristic: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/service0030/char0036
+bluetoothd[14447]: src/gatt-client.c:btd_gatt_client_ready() Features 0x00
+bluetoothd[14447]: src/gatt-client.c:btd_gatt_client_ready() Update Features 0x05
+bluetoothd[14447]: src/device.c:device_svc_resolved() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0 err 0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.334:method_call] > org.freedesktop.DBus.Properties.Get [#1417]
+bluetoothd[14447]: [:1.334:method_return] < [#1417]
+bluetoothd[14447]: [0x630eb4061e00] src/shared/gatt-client.c:service_changed_register_cb() Registered handler for "Service Changed": 1
+bluetoothd[14447]: profiles/gap/gas.c:read_device_name_cb() GAP Device Name: NRF5340_AUDIO
+bluetoothd[14447]: src/shared/bap.c:bap_parse_pacs() PAC(s) 1
+bluetoothd[14447]: #0: len 0x03 type 0x01
+bluetoothd[14447]: Sampling Frequencies: 0x0094
+bluetoothd[14447]: Sampling Frequency: 16 Khz (0x0004)
+bluetoothd[14447]: Sampling Frequency: 24 Khz (0x0010)
+bluetoothd[14447]: Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[14447]: #1: len 0x02 type 0x02
+bluetoothd[14447]: Frame Duration: 0x22
+bluetoothd[14447]: Frame Duration: 10 ms (0x02)
+bluetoothd[14447]: Frame Duration: 10 ms preferred (0x20)
+bluetoothd[14447]: #2: len 0x02 type 0x03
+bluetoothd[14447]: Audio Channel Count: 0x01
+bluetoothd[14447]: Audio Channel Count: 1 channel (0x01)
+bluetoothd[14447]: #3: len 0x05 type 0x04
+bluetoothd[14447]: Frame Length: 40 (0x0028) - 155 (0x009b)
+bluetoothd[14447]: #4: len 0x02 type 0x05
+bluetoothd[14447]: Max SDU: 1 (0x01)
+bluetoothd[14447]: src/shared/bap.c:bap_parse_pacs() PAC #0: type 1 codec 0x06 cc_len 19 meta_len 4
+bluetoothd[14447]: src/shared/bap.c:bap_parse_pacs() PAC(s) 1
+bluetoothd[14447]: #0: len 0x03 type 0x01
+bluetoothd[14447]: Sampling Frequencies: 0x0080
+bluetoothd[14447]: Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[14447]: #1: len 0x02 type 0x02
+bluetoothd[14447]: Frame Duration: 0x22
+bluetoothd[14447]: Frame Duration: 10 ms (0x02)
+bluetoothd[14447]: Frame Duration: 10 ms preferred (0x20)
+bluetoothd[14447]: #2: len 0x02 type 0x03
+bluetoothd[14447]: Audio Channel Count: 0x01
+bluetoothd[14447]: Audio Channel Count: 1 channel (0x01)
+bluetoothd[14447]: #3: len 0x05 type 0x04
+bluetoothd[14447]: Frame Length: 40 (0x0028) - 155 (0x009b)
+bluetoothd[14447]: #4: len 0x02 type 0x05
+bluetoothd[14447]: Max SDU: 1 (0x01)
+bluetoothd[14447]: src/shared/bap.c:bap_parse_pacs() PAC #0: type 2 codec 0x06 cc_len 19 meta_len 4
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state idle len 0
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state idle len 0
+bluetoothd[14447]: profiles/audio/bap.c:bap_ready() bap 0x630eb4057d20
+bluetoothd[14447]: profiles/audio/bap.c:pac_register() lpac 0x630eb402b000 rpac 0x630eb408a020
+bluetoothd[14447]: profiles/audio/bap.c:ep_register() ep 0x630eb4085660 lpac 0x630eb402b000 rpac 0x630eb408a020 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0
+bluetoothd[14447]: profiles/audio/bap.c:pac_register() lpac 0x630eb407a210 rpac 0x630eb4092490
+bluetoothd[14447]: profiles/audio/bap.c:ep_register() ep 0x630eb4085830 lpac 0x630eb407a210 rpac 0x630eb4092490 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [:1.394:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[14447]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.394 path = /MediaEndpointLE/BAPSink/lc3
+bluetoothd[14447]: [:1.394:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[14447]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.394 path = /MediaEndpointLE/BAPSource/lc3
+bluetoothd[14447]: profiles/audio/bap.c:setup_new() ep 0x630eb4085660 setup 0x630eb4080640
+bluetoothd[14447]: profiles/audio/bap.c:select_cb() selecting 2
+bluetoothd[14447]: profiles/audio/bap.c:setup_new() ep 0x630eb4085830 setup 0x630eb4049df0
+bluetoothd[14447]: profiles/audio/bap.c:select_cb() selecting 1
+bluetoothd[14447]: profiles/audio/bap.c:setup_config() setup 0x630eb4080640 caps 0x630eb408b720 metadata 0x630eb4044880
+bluetoothd[14447]: #0: len 0x02 type 0x01
+bluetoothd[14447]: Sampling Frequency: 48 Khz (0x08)
+bluetoothd[14447]: #1: len 0x02 type 0x02
+bluetoothd[14447]: Frame Duration: 10 ms (0x01)
+bluetoothd[14447]: #2: len 0x05 type 0x03
+bluetoothd[14447]: Location: 0x00000001
+bluetoothd[14447]: Location: Front Left (0x00000001)
+bluetoothd[14447]: #3: len 0x03 type 0x04
+bluetoothd[14447]: Frame Length: 155 (0x009b)
+bluetoothd[14447]: #4: len 0x02 type 0x05
+bluetoothd[14447]: Frame Blocks per SDU: 1 (0x01)
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4090f00 (op 0x01) queue 0x630eb4048880
+bluetoothd[14447]: profiles/audio/bap.c:setup_config() setup 0x630eb4049df0 caps 0x630eb408e280 metadata 0x630eb4056ae0
+bluetoothd[14447]: #0: len 0x02 type 0x01
+bluetoothd[14447]: Sampling Frequency: 48 Khz (0x08)
+bluetoothd[14447]: #1: len 0x02 type 0x02
+bluetoothd[14447]: Frame Duration: 10 ms (0x01)
+bluetoothd[14447]: #2: len 0x05 type 0x03
+bluetoothd[14447]: Location: 0x00000001
+bluetoothd[14447]: Location: Front Left (0x00000001)
+bluetoothd[14447]: #3: len 0x03 type 0x04
+bluetoothd[14447]: Frame Length: 155 (0x009b)
+bluetoothd[14447]: #4: len 0x02 type 0x05
+bluetoothd[14447]: Frame Blocks per SDU: 1 (0x01)
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4093670 (op 0x01) queue 0x630eb4082ea0
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb4090f00 len 58
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: profiles/audio/bap.c:config_cb() stream 0x630eb408c850 code 0x00 reason 0x00
+bluetoothd[14447]: profiles/audio/bap.c:config_cb() stream 0x630eb402b7c0 code 0x00 reason 0x00
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state config len 42
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() codec 0x06 framing 0x00 phy 0x02 rtn 2 latency 10 pd 3000 - 60000 ppd 3000 - 40000
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #0: type 0x01 len 2
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #1: type 0x02 len 2
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #2: type 0x03 len 5
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #3: type 0x04 len 3
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #4: type 0x05 len 2
+bluetoothd[14447]: src/shared/bap.c:bap_stream_update_io_links() stream 0x630eb408c850
+bluetoothd[14447]: src/shared/bap.c:bap_ucast_io_link() stream 0x630eb402b7c0 link 0x630eb408c850
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: idle(0) -> config(1)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/bap.c:setup_connect_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bap_stream_io_attach() stream 0x630eb408c850 connecting true
+bluetoothd[14447]: src/shared/bap.c:stream_io_new() fd 38
+bluetoothd[14447]: profiles/audio/bap.c:bap_connecting() stream 0x630eb408c850 fd 38: CIG 0x00 CIS 0x00
+bluetoothd[14447]: profiles/audio/bap.c:bap_connecting() stream 0x630eb402b7c0 fd 38: CIG 0x00 CIS 0x00
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4091190 (op 0x02) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb4091190 len 18
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state config len 42
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() codec 0x06 framing 0x00 phy 0x02 rtn 2 latency 10 pd 3000 - 60000 ppd 3000 - 40000
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #0: type 0x01 len 2
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #1: type 0x02 len 2
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #2: type 0x03 len 5
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #3: type 0x04 len 3
+bluetoothd[14447]: src/shared/bap.c:ep_status_config() Codec Config #4: type 0x05 len 2
+bluetoothd[14447]: src/shared/bap.c:bap_stream_update_io_links() stream 0x630eb402b7c0
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb402b7c0: idle(0) -> config(1)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4049df0 stream 0x630eb402b7c0 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4081d20 (op 0x02) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: profiles/audio/bap.c:qos_cb() stream 0x630eb408c850 code 0x00 reason 0x00
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb4081d20 len 18
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state qos len 15
+bluetoothd[14447]: src/shared/bap.c:ep_status_qos() CIG 0x00 CIS 0x00 interval 10000 framing 0x00 phy 0x02 rtn 5 latency 20 pd 40000
+bluetoothd[14447]: profiles/audio/media.c:pac_config() endpoint 0x630eb4068130 stream 0x630eb408c850
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [:1.394:method_call] < org.bluez.MediaEndpoint1.SetConfiguration
+bluetoothd[14447]: profiles/audio/media.c:media_endpoint_async_call() Calling SetConfiguration: name = :1.394 path = /MediaEndpointLE/BAPSink/lc3
+bluetoothd[14447]: src/shared/bap.c:bap_stream_update_io_links() stream 0x630eb408c850
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: config(1) -> qos(2)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb408c850: config(1) -> qos(2)
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 State=TRANSPORT_STATE_IDLE Playing=0
+bluetoothd[14447]: [:1.394:method_call] > org.freedesktop.DBus.Properties.Set [#73]
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_set_volume() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 level 255
+bluetoothd[14447]: [:1.394:method_return] < [#73]
+bluetoothd[14447]: profiles/audio/csip.c:csip_ready() csip 0x630eb4054b00
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: profiles/audio/bap.c:qos_cb() stream 0x630eb402b7c0 code 0x00 reason 0x00
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state qos len 15
+bluetoothd[14447]: src/shared/bap.c:ep_status_qos() CIG 0x00 CIS 0x00 interval 10000 framing 0x00 phy 0x02 rtn 5 latency 20 pd 40000
+bluetoothd[14447]: profiles/audio/media.c:pac_config() endpoint 0x630eb4079db0 stream 0x630eb402b7c0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[14447]: [:1.394:method_call] < org.bluez.MediaEndpoint1.SetConfiguration
+bluetoothd[14447]: profiles/audio/media.c:media_endpoint_async_call() Calling SetConfiguration: name = :1.394 path = /MediaEndpointLE/BAPSource/lc3
+bluetoothd[14447]: src/shared/bap.c:bap_stream_update_io_links() stream 0x630eb402b7c0
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb402b7c0: config(1) -> qos(2)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4049df0 stream 0x630eb402b7c0 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb402b7c0: config(1) -> qos(2)
+bluetoothd[14447]: profiles/audio/transport.c:transport_bap_update_links_uc() stream 0x630eb408c850 linked true
+bluetoothd[14447]: profiles/audio/transport.c:transport_bap_update_links_uc() stream 0x630eb402b7c0 linked true
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 State=TRANSPORT_STATE_IDLE Playing=0
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [:1.394:method_call] > org.freedesktop.DBus.Properties.Set [#75]
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_set_volume() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 level 102
+bluetoothd[14447]: [:1.394:method_return] < [#75]
+bluetoothd[14447]: [:1.394:method_call] > org.freedesktop.DBus.Properties.Set [#77]
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_set_volume() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 level 125
+bluetoothd[14447]: [:1.394:method_return] < [#77]
+bluetoothd[14447]: src/shared/vcp.c:read_vol_state() Vol Set:66
+bluetoothd[14447]: src/shared/vcp.c:read_vol_state() Vol Mute:0
+bluetoothd[14447]: src/shared/vcp.c:read_vol_state() Vol Counter:2
+bluetoothd[14447]: src/shared/vcp.c:read_vol_flag() Vol Flag:1
+bluetoothd[14447]: src/shared/vcp.c:vcp_volume_cp_sent() setting volume failed: invalid counter
+bluetoothd[14447]: src/shared/vcp.c:vcp_set_volume_complete() set pending volume 0x7d
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/vcp.c:vcp_vstate_notify() Vol Settings 0x7d
+bluetoothd[14447]: src/shared/vcp.c:vcp_vstate_notify() Mute Status 0x0
+bluetoothd[14447]: src/shared/vcp.c:vcp_vstate_notify() Vol Counter 0x3
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+
+
+
+
+///////////////After selecting the nrf board////////////////////////////////////////////////////
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.MediaTransport1.Acquire [#78]
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_create() Owner created: sender=:1.394
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_resume() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 Owner :1.394
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb402a250 (op 0x03) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4090f50 (op 0x03) queue 0x630eb408c660
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0: TRANSPORT_STATE_IDLE -> TRANSPORT_STATE_REQUESTING
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1: TRANSPORT_STATE_IDLE -> TRANSPORT_STATE_REQUESTING
+bluetoothd[14447]: profiles/audio/transport.c:media_request_create() Request created: method=Acquire id=5
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_add() Owner :1.394 Request Acquire
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_set_owner() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 Owner :1.394
+bluetoothd[14447]: profiles/audio/transport.c:linked_transport_set_owner() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 Owner :1.394
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb402a250 len 14
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state enabling len 7
+bluetoothd[14447]: src/shared/bap.c:ep_status_metadata() CIS 0x00 CIG 0x00 metadata len 4
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: qos(2) -> enabling(3)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4080640 stream 0x630eb408c850 defer false
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/bap.c:setup_accept_io() stream 0x630eb408c850 fd 38 defer true
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb408c850: qos(2) -> enabling(3)
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state enabling len 7
+bluetoothd[14447]: src/shared/bap.c:ep_status_metadata() CIS 0x00 CIG 0x00 metadata len 4
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb402b7c0: qos(2) -> enabling(3)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4049df0 stream 0x630eb402b7c0 defer false
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb402b7c0: qos(2) -> enabling(3)
+bluetoothd[14447]: profiles/audio/bap.c:iso_connect_cb() ISO connected
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb402a250 (op 0x04) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb402a250 len 3
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state streaming len 7
+bluetoothd[14447]: src/shared/bap.c:ep_status_metadata() CIS 0x00 CIG 0x00 metadata len 4
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb402b7c0: enabling(3) -> streaming(4)
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb402b7c0: enabling(3) -> streaming(4)
+bluetoothd[14447]: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1: fd(38) ready
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 State=TRANSPORT_STATE_REQUESTING Playing=1
+bluetoothd[14447]: profiles/audio/transport.c:bap_resume_complete() stream 0x630eb402b7c0 owner 0x630eb4084da0 resume complete
+bluetoothd[14447]: [:1.394:method_return] < [#78]
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_remove() Owner :1.394 Request Acquire
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1: TRANSPORT_STATE_REQUESTING -> TRANSPORT_STATE_ACTIVE
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0: TRANSPORT_STATE_REQUESTING -> TRANSPORT_STATE_ACTIVE
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state streaming len 7
+bluetoothd[14447]: src/shared/bap.c:ep_status_metadata() CIS 0x00 CIG 0x00 metadata len 4
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: enabling(3) -> streaming(4)
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb408c850: enabling(3) -> streaming(4)
+bluetoothd[14447]: /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0: fd(38) ready
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 State=TRANSPORT_STATE_ACTIVE Playing=1
+bluetoothd[14447]: profiles/audio/transport.c:bap_resume_complete() stream 0x630eb408c850 owner 0x630eb4084da0 resume complete
+bluetoothd[14447]: [:1.394:method_call] > org.bluez.MediaTransport1.Release [#81]
+bluetoothd[14447]: profiles/audio/transport.c:release() Owner :1.394
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1: TRANSPORT_STATE_ACTIVE -> TRANSPORT_STATE_SUSPENDING
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0: TRANSPORT_STATE_ACTIVE -> TRANSPORT_STATE_SUSPENDING
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_suspend() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 Owner :1.394
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4081d20 (op 0x05) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb4090f50 (op 0x05) queue 0x630eb402be50
+bluetoothd[14447]: profiles/audio/transport.c:media_request_create() Request created: method=Release id=8
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_add() Owner :1.394 Request Release
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb4081d20 len 4
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: profiles/audio/transport.c:media_request_reply() Request Release Reply Success
+bluetoothd[14447]: [:1.394:method_return] < [#81]
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_remove() Owner :1.394 Request Release
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0: TRANSPORT_STATE_SUSPENDING -> TRANSPORT_STATE_IDLE
+bluetoothd[14447]: profiles/audio/transport.c:transport_set_state() State changed /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1: TRANSPORT_STATE_SUSPENDING -> TRANSPORT_STATE_IDLE
+bluetoothd[14447]: profiles/audio/transport.c:media_transport_remove_owner() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 Owner :1.394
+bluetoothd[14447]: profiles/audio/transport.c:linked_transport_remove_owner() Transport /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 Owner :1.394
+bluetoothd[14447]: profiles/audio/transport.c:media_owner_free() Owner :1.394
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: [signal] org.freedesktop.DBus.Properties.PropertiesChanged
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb40838b0 id 0x01 handle 0x000e state qos len 15
+bluetoothd[14447]: src/shared/bap.c:ep_status_qos() CIG 0x00 CIS 0x00 interval 10000 framing 0x00 phy 0x02 rtn 5 latency 20 pd 40000
+bluetoothd[14447]: src/shared/bap.c:bap_stream_io_detach() stream 0x630eb402b7c0
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb402b7c0: streaming(4) -> qos(2)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4049df0 stream 0x630eb402b7c0 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/bap.c:setup_connect_io() setup 0x630eb4049df0 stream 0x630eb402b7c0 has existing io
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb402b7c0: streaming(4) -> qos(2)
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0/fd1 State=TRANSPORT_STATE_IDLE Playing=0
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state disabling len 7
+bluetoothd[14447]: src/shared/bap.c:ep_status_metadata() CIS 0x00 CIG 0x00 metadata len 4
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: streaming(4) -> disabling(5)
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb408c850: streaming(4) -> disabling(5)
+bluetoothd[14447]: src/shared/bap.c:bap_queue_req() req 0x630eb40678b0 (op 0x06) queue 0x630eb4048880
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/bap.c:bap_send() req 0x630eb40678b0 len 3
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:stream_stop_complete() stream 0x630eb408c850 stop 0x00 0x00
+bluetoothd[14447]: src/shared/bap.c:bap_stream_io_detach() stream 0x630eb408c850
+bluetoothd[14447]: src/shared/bap.c:stream_io_free() fd 38
+bluetoothd[14447]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[14447]: src/shared/att.c:can_read_data() (chan 0x630eb405c3a0) ATT PDU received: 0x1b
+bluetoothd[14447]: src/shared/bap.c:bap_ep_set_status() ASE status: ep 0x630eb4083c70 id 0x02 handle 0x0011 state qos len 15
+bluetoothd[14447]: src/shared/bap.c:ep_status_qos() CIG 0x00 CIS 0x00 interval 10000 framing 0x00 phy 0x02 rtn 5 latency 20 pd 40000
+bluetoothd[14447]: src/shared/bap.c:bap_stream_update_io_links() stream 0x630eb408c850
+bluetoothd[14447]: profiles/audio/bap.c:bap_state() stream 0x630eb408c850: disabling(5) -> qos(2)
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/bap.c:setup_connect_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true wait recreate
+bluetoothd[14447]: profiles/audio/transport.c:bap_state_changed() stream 0x630eb408c850: disabling(5) -> qos(2)
+bluetoothd[14447]: profiles/audio/transport.c:transport_update_playing() /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0/fd0 State=TRANSPORT_STATE_IDLE Playing=0
+bluetoothd[14447]: profiles/audio/bap.c:setup_io_disconnected() 0x630eb4080640 recreate true
+bluetoothd[14447]: profiles/audio/bap.c:setup_io_close() setup 0x630eb4080640
+bluetoothd[14447]: profiles/audio/bap.c:recreate_cig() adapter 0x630eb402cb00 setup 0x630eb4080640 recreate CIG 0
+bluetoothd[14447]: profiles/audio/bap.c:setup_io_disconnected() 0x630eb4049df0 recreate false
+bluetoothd[14447]: profiles/audio/bap.c:setup_io_close() setup 0x630eb4049df0
+bluetoothd[14447]: profiles/audio/bap.c:recreate_cig() adapter 0x630eb402cb00 setup 0x630eb4049df0 recreate CIG 0
+bluetoothd[14447]: profiles/audio/bap.c:setup_io_recreate() 0x630eb4080640
+bluetoothd[14447]: profiles/audio/bap.c:setup_create_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bt_bap_stream_io_get_qos() in 0x630eb408c888 out 0x630eb402b7f8
+bluetoothd[14447]: profiles/audio/bap.c:setup_connect_io() setup 0x630eb4080640 stream 0x630eb408c850 defer true
+bluetoothd[14447]: src/shared/bap.c:bap_stream_io_attach() stream 0x630eb408c850 connecting true
+bluetoothd[14447]: src/shared/bap.c:stream_io_new() fd 38
+bluetoothd[14447]: profiles/audio/bap.c:bap_connecting() stream 0x630eb408c850 fd 38: CIG 0x00 CIS 0x00
+bluetoothd[14447]: profiles/audio/bap.c:bap_connecting() stream 0x630eb402b7c0 fd 38: CIG 0x00 CIS 0x00
+
+
+
