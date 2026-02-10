@@ -1,0 +1,266 @@
+night logs
+
+
+
+
+
+
+
+bluetoothd[3808]: [:1.211:method_call] > org.bluez.Media1.RegisterEndpoint [#2]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x0080
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x05 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug()   00 00 00                                         ...             
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 155 (0x009b) - 155 (0x009b)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82ec9100
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82ec9100 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82ef61e0 lpac 0x5faf82ec9100 rpac 0x5faf82eeb470 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.211:/local/endpoint/ep0 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.211 path=/local/endpoint/ep0
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.211:method_return] < [#2]
+bluetoothd[3808]: [:1.211:method_call] > org.bluez.Media1.RegisterEndpoint [#3]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x0080
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x05 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug()   00 00 00                                         ...             
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 155 (0x009b) - 155 (0x009b)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82eeee10
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82ec9100 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82eeee10 rpac 0x5faf82eeb910
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82eda4c0 lpac 0x5faf82eeee10 rpac 0x5faf82eeb910 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.211:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.211 path = /local/endpoint/ep0
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.211:/local/endpoint/ep1 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.211 path=/local/endpoint/ep1
+bluetoothd[3808]: [:1.211:method_return] < [#3]
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82ef61e0 setup 0x5faf82efb490
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 1
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82efb490 caps 0x5faf82ee0080 metadata 0x5faf82f13590
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82ef6990 (op 0x01) queue 0x5faf82ec7310
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: src/shared/bap.c:bap_send() req 0x5faf82ef6990 len 11
+bluetoothd[3808]: src/shared/att.c:can_read_data() (chan 0x5faf82f0e150) ATT PDU received: 0x1b
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82efa4e0 code 0x09 reason 0x08
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: Endpoint unregistered: sender=:1.211 path=/local/endpoint/ep0
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_destroy() sender=:1.211 path=/local/endpoint/ep0
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_set_state() stream 0x5faf82efa4e0 dir 0x02: idle -> idle
+bluetoothd[3808]: profiles/audio/bap.c:bap_state() stream 0x5faf82efa4e0: idle(0) -> idle(0)
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_detach() stream 0x5faf82efa4e0 ep 0x5faf82eea090
+bluetoothd[3808]: profiles/audio/media.c:pac_clear() endpoint 0x5faf82e9f2c0 stream 0x5faf82efa4e0
+bluetoothd[3808]: profiles/audio/bap.c:pac_removed_broadcast() pac 0x5faf82ec9100
+bluetoothd[3808]: profiles/audio/bap.c:pac_removed() pac 0x5faf82ec9100
+bluetoothd[3808]: profiles/audio/bap.c:ep_unregister() ep 0x5faf82ef61e0 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0
+bluetoothd[3808]: profiles/audio/bap.c:setup_free() 0x5faf82efb490
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesRemoved
+bluetoothd[3808]: Endpoint unregistered: sender=:1.211 path=/local/endpoint/ep1
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_destroy() sender=:1.211 path=/local/endpoint/ep1
+bluetoothd[3808]: profiles/audio/bap.c:pac_removed_broadcast() pac 0x5faf82eeee10
+bluetoothd[3808]: profiles/audio/bap.c:pac_removed() pac 0x5faf82eeee10
+bluetoothd[3808]: profiles/audio/bap.c:ep_unregister() ep 0x5faf82eda4c0 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesRemoved
+bluetoothd[3808]: [:1.212:method_call] > org.bluez.Media1.RegisterEndpoint [#2]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x0080
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x05 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug()   00 00 00                                         ...             
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 120 (0x0078) - 155 (0x009b)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82edd0e0
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82edd0e0 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82efac40 lpac 0x5faf82edd0e0 rpac 0x5faf82eeb470 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source0
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.212:/local/endpoint/ep0 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.212 path=/local/endpoint/ep0
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.212:method_return] < [#2]
+bluetoothd[3808]: [:1.212:method_call] > org.bluez.Media1.RegisterEndpoint [#3]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x0080
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x05 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug()   00 00 00                                         ...             
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 120 (0x0078) - 155 (0x009b)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82eefe00
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82edd0e0 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82eefe00 rpac 0x5faf82eeb910
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82efa8a0 lpac 0x5faf82eefe00 rpac 0x5faf82eeb910 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink0
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.212:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.212 path = /local/endpoint/ep0
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.212:/local/endpoint/ep1 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.212 path=/local/endpoint/ep1
+bluetoothd[3808]: [:1.212:method_return] < [#3]
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82efac40 setup 0x5faf82f13930
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 1
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f13930 caps 0x5faf82f140b0 metadata 0x5faf82f13da0
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82f13850 (op 0x01) queue 0x5faf82ec7310
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: src/shared/bap.c:bap_send() req 0x5faf82f13850 len 11
+bluetoothd[3808]: src/shared/att.c:can_read_data() (chan 0x5faf82f0e150) ATT PDU received: 0x1b
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82efa4e0 code 0x09 reason 0x08
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+
+
+
+
+
+
+
+
+
+
+
+
+registering the endpoints from bluetoothctl
+
+
+bluetoothd[3808]: [:1.111:signal] > org.freedesktop.DBus.ObjectManager.InterfacesAdded [#184]
+bluetoothd[3808]: [:1.111:method_call] > org.bluez.Media1.RegisterEndpoint [#185]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x00ff
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 8 Khz (0x0001)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 11.25 Khz (0x0002)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 16 Khz (0x0004)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 22.05 Khz (0x0008)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 24 Khz (0x0010)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 32 Khz (0x0020)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 44.1 Khz (0x0040)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 7.5 ms (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x02 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 2 channel (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 30 (0x001e) - 240 (0x00f0)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82ec5890
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82edd0e0 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82eefe00 rpac 0x5faf82eeb910
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82ec5890 rpac 0x5faf82eeb910
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82f142c0 lpac 0x5faf82ec5890 rpac 0x5faf82eeb910 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_sink1
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.212:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.212 path = /local/endpoint/ep0
+bluetoothd[3808]: [:1.212:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.212 path = /local/endpoint/ep1
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.111:/local/endpoint/ep0 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.111 path=/local/endpoint/ep0
+bluetoothd[3808]: [:1.111:method_return] < [#185]
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82efac40 setup 0x5faf82f14140
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 2
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82efa8a0 setup 0x5faf82efac80
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 1
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f13930 caps 0x5faf82f140b0 metadata 0x5faf82f13da0
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82f141e0 (op 0x01) queue 0x5faf82ec7310
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f14140 caps 0x5faf82ef5a00 metadata 0x5faf82edf8a0
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_stream_new() Unable to find unused ASE
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() Unable to config stream
+bluetoothd[3808]: profiles/audio/bap.c:setup_free() 0x5faf82f14140
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82efac80 caps 0x5faf82ee68d0 metadata 0x5faf82ea5fa0
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82f145c0 (op 0x01) queue 0x5faf82ef2360
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: src/shared/bap.c:bap_send() req 0x5faf82f141e0 len 20
+bluetoothd[3808]: src/shared/att.c:can_read_data() (chan 0x5faf82f0e150) ATT PDU received: 0x1b
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82efa4e0 code 0x09 reason 0x08
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82f02310 code 0x09 reason 0x08
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: [:1.111:signal] > org.freedesktop.DBus.ObjectManager.InterfacesAdded [#187]
+bluetoothd[3808]: [:1.111:method_call] > org.bluez.Media1.RegisterEndpoint [#188]
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #0: len 0x03 type 0x01
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequencies: 0x00ff
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 8 Khz (0x0001)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 11.25 Khz (0x0002)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 16 Khz (0x0004)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 22.05 Khz (0x0008)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 24 Khz (0x0010)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 32 Khz (0x0020)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 44.1 Khz (0x0040)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Sampling Frequency: 48 Khz (0x0080)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #1: len 0x02 type 0x02
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 7.5 ms (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Duration: 10 ms (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #2: len 0x02 type 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 0x03
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 1 channel (0x01)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Audio Channel Count: 2 channel (0x02)
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() #3: len 0x05 type 0x04
+bluetoothd[3808]: profiles/audio/media.c:bap_debug() Frame Length: 30 (0x001e) - 240 (0x00f0)
+bluetoothd[3808]: profiles/audio/bap.c:pac_added() pac 0x5faf82ebfa10
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82edd0e0 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82ebfa10 rpac 0x5faf82eeb470
+bluetoothd[3808]: profiles/audio/bap.c:ep_register() ep 0x5faf82f14630 lpac 0x5faf82ebfa10 rpac 0x5faf82eeb470 path /org/bluez/hci0/dev_CE_BB_C5_05_25_B0/pac_source1
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82eefe00 rpac 0x5faf82eeb910
+bluetoothd[3808]: profiles/audio/bap.c:pac_register() lpac 0x5faf82ec5890 rpac 0x5faf82eeb910
+bluetoothd[3808]: [signal] org.freedesktop.DBus.ObjectManager.InterfacesAdded
+bluetoothd[3808]: [:1.212:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.212 path = /local/endpoint/ep0
+bluetoothd[3808]: [:1.212:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.212 path = /local/endpoint/ep1
+bluetoothd[3808]: [:1.111:method_call] < org.bluez.MediaEndpoint1.SelectProperties
+bluetoothd[3808]: profiles/audio/media.c:media_endpoint_async_call() Calling SelectProperties: name = :1.111 path = /local/endpoint/ep0
+bluetoothd[3808]: profiles/audio/media.c:endpoint_init_pac() PAC :1.111:/local/endpoint/ep1 registered
+bluetoothd[3808]: Endpoint registered: sender=:1.111 path=/local/endpoint/ep1
+bluetoothd[3808]: [:1.111:method_return] < [#188]
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82efac40 setup 0x5faf82f14520
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 3
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82efa8a0 setup 0x5faf82f14480
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 2
+bluetoothd[3808]: profiles/audio/bap.c:setup_new() ep 0x5faf82f142c0 setup 0x5faf82e9f370
+bluetoothd[3808]: profiles/audio/bap.c:select_cb() selecting 1
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f13930 caps 0x5faf82f140b0 metadata 0x5faf82f13da0
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82f047f0 (op 0x01) queue 0x5faf82ec7310
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f14520 caps 0x5faf82eed0e0 metadata 0x5faf82ee67b0
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_stream_new() Unable to find unused ASE
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() Unable to config stream
+bluetoothd[3808]: profiles/audio/bap.c:setup_free() 0x5faf82f14520
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82efac80 caps 0x5faf82ee68d0 metadata 0x5faf82ea5fa0
+bluetoothd[3808]: src/shared/bap.c:bap_queue_req() req 0x5faf82f149a0 (op 0x01) queue 0x5faf82ed1ea0
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82f14480 caps 0x5faf82ef5a00 metadata 0x5faf82ed2c70
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_stream_new() Unable to find unused ASE
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() Unable to config stream
+bluetoothd[3808]: profiles/audio/bap.c:setup_free() 0x5faf82f14480
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() setup 0x5faf82e9f370 caps 0x5faf82ed3960 metadata 0x5faf82eeb450
+bluetoothd[3808]: src/shared/bap.c:bap_ucast_stream_new() Unable to find unused ASE
+bluetoothd[3808]: profiles/audio/bap.c:setup_config() Unable to config stream
+bluetoothd[3808]: profiles/audio/bap.c:setup_free() 0x5faf82e9f370
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+bluetoothd[3808]: src/shared/bap.c:bap_send() req 0x5faf82f047f0 len 20
+bluetoothd[3808]: src/shared/att.c:can_read_data() (chan 0x5faf82f0e150) ATT PDU received: 0x1b
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82efa4e0 code 0x09 reason 0x08
+bluetoothd[3808]: profiles/audio/bap.c:config_cb() stream 0x5faf82f02310 code 0x09 reason 0x08
+bluetoothd[3808]: src/shared/bap.c:bap_process_queue() 
+
+
+
